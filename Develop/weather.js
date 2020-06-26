@@ -3,7 +3,7 @@ $(document).ready(function () {
     getDate();
     function getDate() {
         var today = $("#currentDay");
-        var d = (new Date()).toString().split(' ').splice(1, 4).join(' , ');
+        var d = (new Date()).toString().split(' ').splice(1, 3).join(' , ');
         today.text(d);
     }
     
